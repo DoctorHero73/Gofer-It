@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 726298993806330937}
   - component: {fileID: 98944753625503360}
+  - component: {fileID: 3031205498741066221}
   m_Layer: 0
   m_Name: Rescaled
   m_TagString: Untagged
@@ -54,6 +55,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!135 &3031205498741066221
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98944753625503363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.39215612
+  m_Center: {x: 0, y: 0, z: -0.107843876}
 --- !u!1 &188004359099741656
 GameObject:
   m_ObjectHideFlags: 0
