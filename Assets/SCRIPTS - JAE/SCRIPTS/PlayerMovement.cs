@@ -7,7 +7,6 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rb;
     [SerializeField] private float _speed = 10; 
-    [SerializeField] private float _turnSpeed = 360;
 
     private InputControlls input = null;
     private Vector3 moveVector = Vector3.zero;
